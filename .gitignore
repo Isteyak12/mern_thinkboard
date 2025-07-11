@@ -1,2 +1,9 @@
-backend/node_modules
-backend/package-lock.json
+# Ignore .env files
+backend/.env
+
+# Ignore specific backend files
+backend/src/config/db.js
+
+# (Optional) node_modules and .dist are typically ignored too
+backend/node_modules/
+.dist/
